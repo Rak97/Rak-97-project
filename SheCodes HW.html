@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Kulfi Project</title>
+    <style>
+
+hr {
+    line-height: bold;
+    color: orangered;
+}
+.position {
+    text-indent: 215px;
+    color: black;
+    font-size: 10px;
+
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin: 0 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    border-radius: 15px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 100px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    text-indent: 35px;
+}
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 10px rgba(228, 206, 206, 0.3);
+    display: block;
+    border: none;
+    border-radius: 25px;
+    margin: 20px auto;
+    background: orangered;
+    color: white;
+    font-size: 16px;
+    padding: 15px 20px;
+    transition: 200ms ease-in-out;
+}
+
+button:hover {
+    color: orangered;
+    background: white;
+    cursor: pointer;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px 60px;
+    background-image: linear-gradient(to top, #fac51c 0%, #ed8900 100%);
+}
+body {
+    margin: 60px auto;
+}
+</style>
+
+</head>
+<body>
+    <div class="container">
+<h1>
+    I ❤️ Kulfi
+</h1>
+<h2>
+    What is Kulfi?
+</h2>
+<p>
+    Kulfi (Kool-fee) is a frozen dairy dessert originating in the Indian subcontinent in the 16th century. It is often
+    described as "traditional Indian ice cream". Despite the name kulfi it is similar to ice cream in appearance and
+    taste, but creamer and denser. Unlike ice cream, kulfi is not whipped, resulting in a solid, dense frozen dessert similar to traditional custard-based ice cream. It comes in
+    various flavours. The more traditional ones are cream malai, rose, mango, cardamom, saffron (kesar or zafran), and pistachio. There are contemporary flavours like avocado, chocolate, strawberry, apple, orange, and
+    peanut.
+</p>
+<ul>
+    <li>
+        <strong> To Learn More Click Here 👉🏾 </strong>
+        <a href="https://en.wikipedia.org/wiki/Kulfi" target="_blank" class="learn">
+            Wikipedia
+        </a>
+    </li>
+</ul>
+<hr>
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/884/original/IMG_8968.jpg?1626200631"
+    alt="Mango Kulfi"> 
+<hr>
+<ul>
+    <li>
+        <strong> To Get Recipes on how to make kulfi please press on the orange button below </strong>
+    <button>
+        For More Information
+    </button>
+    </li>
+</ul>
+<p class="position">
+    The page was built by Rakave Kandiah
+</p>
+    </div>
+    <script>
+        function changeButton() {
+            let name = prompt("What is your name?");
+            let email = prompt("What is your email?");
+            alert("Okay " + name + " we will be in contact you soon! In the meantime please have some kulfi 🤤 ")
+        }
+        let change = document.querySelector("button");
+        change.addEventListener("click", changeButton);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
